@@ -7,6 +7,8 @@ const ADDITION_BATCH_SIZE = 47;
 const ADDITIONS = 200000;
 const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
+document.getElementById("version").innerHTML = `${process.versions.electron}`;
+
 if (fs.existsSync("test.db")) {
 	fs.unlinkSync("test.db");
 }
