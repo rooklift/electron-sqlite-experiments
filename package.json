@@ -1,0 +1,11 @@
+{
+  "name": "Electron Sqlite Experiments",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "better-sqlite3": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}
